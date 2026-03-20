@@ -34,7 +34,7 @@ export function MatchCard({ match }: MatchCardProps) {
             <h3 className="text-xl font-bold font-heading line-clamp-1 group-hover:text-primary transition-colors">
               {match.title}
             </h3>
-            <span className="text-lg font-bold font-heading text-primary">${match.price.toFixed(2)}</span>
+            <span className="text-lg font-bold font-heading text-primary">{match.price.toFixed(2)}$</span>
           </div>
           <div className="flex items-center gap-4 text-sm text-muted-foreground font-medium">
             <div className="flex items-center gap-1.5">
@@ -63,7 +63,7 @@ export function MatchCard({ match }: MatchCardProps) {
           </div>
           <Button size="sm" className="rounded-full px-5 font-semibold shadow-lg shadow-primary/20 hover:shadow-primary/40 active:scale-95 transition-all">
             <Ticket className="mr-2 h-4 w-4" />
-            Buy Tickets
+            Réserver
           </Button>
         </div>
       </div>

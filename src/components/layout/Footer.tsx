@@ -12,7 +12,7 @@ export function Footer() {
               <span className="text-2xl font-bold font-heading tracking-tight">BuyTicket</span>
             </div>
             <p className="text-muted-foreground leading-relaxed max-w-xs">
-              The premier marketplace for sports tickets. Experience the thrill of live football, handball, and volleyball events across the globe.
+              La première place de marché pour les billets de sport. Vivez le frisson des événements en direct de football, handball et volleyball à travers le monde.
             </p>
             <div className="flex items-center gap-4">
               <button className="h-10 w-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all">
@@ -31,42 +31,42 @@ export function Footer() {
           </div>
 
           <div className="space-y-6">
-            <h4 className="text-lg font-bold font-heading tracking-tight">Quick Links</h4>
+            <h4 className="text-lg font-bold font-heading tracking-tight">Liens Rapides</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">How it Works</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">All Events</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Contact Us</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">À Propos</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Comment ça marche</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Tous les Événements</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Contactez-nous</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">FAQ</a></li>
             </ul>
           </div>
 
           <div className="space-y-6">
-            <h4 className="text-lg font-bold font-heading tracking-tight">Organizer</h4>
+            <h4 className="text-lg font-bold font-heading tracking-tight">Organisateur</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Become an Organizer</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Marketplace Tools</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Ticket Scanning</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Payouts & Revenue</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Case Studies</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Devenir Organisateur</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Outils Marketplace</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Scan de Billets</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Paiements & Revenus</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Études de Cas</a></li>
             </ul>
           </div>
 
           <div className="space-y-6">
             <h4 className="text-lg font-bold font-heading tracking-tight">Newsletter</h4>
             <p className="text-muted-foreground leading-relaxed">
-              Stay updated with the latest sports events and exclusive ticket offers.
+              Restez informé des derniers événements sportifs et des offres exclusives de billets.
             </p>
             <div className="space-y-3">
               <div className="relative">
                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                 <input 
                   type="email" 
-                  placeholder="Enter your email"
+                  placeholder="Entrez votre email"
                   className="w-full h-11 pl-10 pr-4 rounded-xl bg-secondary border border-border/40 focus:ring-2 focus:ring-primary/50 outline-none text-sm transition-all"
                 />
               </div>
-              <Button className="w-full rounded-xl h-11 font-semibold">Subscribe Now</Button>
+              <Button className="w-full rounded-xl h-11 font-semibold">S'abonner Maintenant</Button>
             </div>
           </div>
         </div>
@@ -88,8 +88,8 @@ export function Footer() {
           </div>
           
           <div className="flex items-center gap-8 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-primary transition-colors">Politique de Confidentialité</a>
+            <a href="#" className="hover:text-primary transition-colors">Conditions d'Utilisation</a>
             <span className="text-muted-foreground/40">© 2026 BuyTicket</span>
           </div>
         </div>

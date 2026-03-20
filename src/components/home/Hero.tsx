@@ -15,34 +15,34 @@ export function Hero() {
             <div className="space-y-4">
               <Badge variant="secondary" className="px-4 py-1.5 rounded-full bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors">
                 <TrendingUp className="mr-2 h-4 w-4" />
-                Featured Event
+                Événement à la Une
               </Badge>
               <h1 className="text-5xl md:text-7xl font-bold font-heading leading-[1.1] tracking-tight text-foreground">
-                Get Your Tickets for <span className="text-primary">Champions League</span> Final
+                Vos Billets pour la Finale de la <span className="text-primary">Ligue des Champions</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-lg leading-relaxed">
-                Experience the thrill of elite sports. Book your seats now for the most anticipated football match of the season.
+                Vivez l'émotion du sport d'élite. Réservez vos places dès maintenant pour le match de football le plus attendu de la saison.
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Calendar className="h-5 w-5 text-primary" />
-                <span>Saturday, June 10 • 20:00 GMT</span>
+                <span>Samedi 10 Juin • 20:00 GMT</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span>Atatürk Olympic Stadium, Istanbul</span>
+                <span>Stade Olympique Atatürk, Istanbul</span>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <Button size="lg" className="w-full sm:w-auto rounded-full px-8 h-14 text-lg shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-1 transition-all">
                 <Ticket className="mr-2 h-5 w-5" />
-                Buy Tickets Now
+                Acheter mes Billets
               </Button>
               <Button size="lg" variant="outline" className="w-full sm:w-auto rounded-full px-8 h-14 text-lg border-2 hover:bg-secondary transition-all">
-                Learn More
+                En savoir plus
               </Button>
             </div>
 
@@ -59,7 +59,7 @@ export function Hero() {
                 ))}
               </div>
               <p className="text-sm text-muted-foreground">
-                <span className="text-foreground font-semibold">1,250+</span> people already booked
+                <span className="text-foreground font-semibold">1 250+</span> personnes ont déjà réservé
               </p>
             </div>
           </div>
@@ -80,13 +80,13 @@ export function Hero() {
                       <Trophy className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Match Category</p>
-                      <p className="font-heading font-bold text-foreground">Football Final 2026</p>
+                      <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Catégorie</p>
+                      <p className="font-heading font-bold text-foreground">Finale Football 2026</p>
                     </div>
                   </div>
                   <div className="text-right">
-                    <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Price starts</p>
-                    <p className="text-xl font-bold font-heading text-primary">$150.00</p>
+                    <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">À partir de</p>
+                    <p className="text-xl font-bold font-heading text-primary">150.00$</p>
                   </div>
                 </div>
               </div>

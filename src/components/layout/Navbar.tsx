@@ -20,7 +20,7 @@ export function Navbar() {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <input 
                 type="text" 
-                placeholder="Search for sports, teams, or events..."
+                placeholder="Rechercher des sports, des équipes ou des événements..."
                 className="w-full h-10 pl-10 pr-4 rounded-full bg-secondary border-none focus:ring-2 focus:ring-primary/50 outline-none text-sm transition-all"
               />
             </div>
@@ -35,11 +35,11 @@ export function Navbar() {
             <div className="h-6 w-[1px] bg-border/40" />
             <div className="flex items-center gap-3">
               <Button variant="ghost" size="sm" className="hidden lg:flex">
-                Publish an event
+                Publier un événement
               </Button>
               <Button size="sm" className="rounded-full px-5">
                 <User className="mr-2 h-4 w-4" />
-                Login
+                Connexion
               </Button>
             </div>
           </div>
@@ -61,7 +61,7 @@ export function Navbar() {
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <input 
               type="text" 
-              placeholder="Search..."
+              placeholder="Rechercher..."
               className="w-full h-10 pl-10 pr-4 rounded-full bg-secondary border-none text-sm"
             />
           </div>
@@ -69,7 +69,7 @@ export function Navbar() {
             <a href="#" className="py-2 hover:text-primary">Football</a>
             <a href="#" className="py-2 hover:text-primary">Handball</a>
             <a href="#" className="py-2 hover:text-primary">Volleyball</a>
-            <Button className="w-full rounded-full">Login</Button>
+            <Button className="w-full rounded-full">Connexion</Button>
           </div>
         </div>
       )}
